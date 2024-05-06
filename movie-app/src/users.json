@@ -1,0 +1,75 @@
+{
+    "users":[
+        {
+            "first_name": "John",
+            "email": "john@example.com",
+            "password": "password123",
+            "account_balance": 5000,
+            "admin": false
+        },
+        {
+            "first_name": "Alice",
+            "email": "alice@example.com",
+            "password": "securepass",
+            "account_balance": 7500,
+            "admin": false
+        },
+        {
+            "first_name": "Bob",
+            "email": "bob@example.com",
+            "password": "bobbypass",
+            "account_balance": 3000,
+            "admin": true
+        },
+        {
+            "first_name": "Emily",
+            "email": "emily@example.com",
+            "password": "emilypass",
+            "account_balance": 10000,
+            "admin": false
+        },
+        {
+            "first_name": "Michael",
+            "email": "michael@example.com",
+            "password": "michaelpass",
+            "account_balance": 2000,
+            "admin": false
+        },
+        {
+            "first_name": "Sarah",
+            "email": "sarah@example.com",
+            "password": "sarahpass",
+            "account_balance": 6000,
+            "admin": false
+        },
+        {
+            "first_name": "David",
+            "email": "david@example.com",
+            "password": "davidpass",
+            "account_balance": 4500,
+            "admin": false
+        },
+        {
+            "first_name": "Emma",
+            "email": "emma@example.com",
+            "password": "emmapass",
+            "account_balance": 8500,
+            "admin": false
+        },
+        {
+            "first_name": "James",
+            "email": "james@example.com",
+            "password": "jamespass",
+            "account_balance": 4000,
+            "admin": false
+        },
+        {
+            "first_name": "Olivia",
+            "email": "olivia@example.com",
+            "password": "oliviapass",
+            "account_balance": 9500,
+            "admin": false
+        }
+    ]
+    
+}
