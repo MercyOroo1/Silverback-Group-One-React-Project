@@ -1,0 +1,16 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+.card-container .card {
+    width: 20rem;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#details-btn{
+    float: left;
+} 
+#wishlist-btn {
+    float: right;
+}
