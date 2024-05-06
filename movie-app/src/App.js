@@ -1,5 +1,6 @@
 
 import './App.css';
+
 import Modal from './components/popup/popup'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div>
       <Modal/>
     </div>
-  );
+  )
 }
 
 export default App;
