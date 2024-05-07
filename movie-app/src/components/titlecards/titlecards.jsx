@@ -16,7 +16,7 @@ const Titlecards = ({title, category}) => {
     cardsRef.current.addEventListener('wheel', handleWheel);
   },[])
   return (
-    <div clasName='title-cards'>
+    <div className='title-cards'>
       <h2>{title?title:"Popular on Moringa Flix!"}</h2>
       <div className="card-list" ref={cardsRef}>
         {cards_data.map((card, index)=>{
