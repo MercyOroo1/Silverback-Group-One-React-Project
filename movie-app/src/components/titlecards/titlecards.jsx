@@ -29,6 +29,7 @@ const Titlecards = ({ title, category }) => {
 
   return (
     <div className='title-cards'>
+
       <h2>{title ? title : "Popular on Moringa Flix!"}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((movie, index) => (
