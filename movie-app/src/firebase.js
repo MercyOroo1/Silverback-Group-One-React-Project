@@ -23,6 +23,7 @@ const signup = async (name, email, password)=>{
     try {
         const res= await createUserWithEmailAndPassword(auth, email, password); 
         const user = res.user;
+
         await addDoc(collection(db, "user"), {
             uid: user.uid,
             name,
@@ -38,15 +39,11 @@ const signup = async (name, email, password)=>{
 
 const login = async(email, password) => {
     try {
-        signInWithEmailAndPassword(auth, email, password);
+         await signInWithEmailAndPassword(auth, email, password);
+        toast.success("Logged In!");
     }  catch (error) {
-        if(err instanceof FirebaseError){
-            console.log("reached catch")
-            console.log(err);
-            toast.error(err.code.split('/')[1].split('-').join(" "));
-        } else{
-            alert("Unexpected error")
-        }
+        console.log(error);
+        toast.error(error.code.split('/')[1].split('-').join(" "));
   }
 }
 
