@@ -9,6 +9,8 @@ import Titlecards from '../../components/titlecards/titlecards.jsx'
 import Footer from '../../components/footer/footer.jsx'
 
 const Home = () => {
+
+  
   return (
     <div className="home">
       <Navbar />
@@ -25,10 +27,10 @@ const Home = () => {
         </div>
       </div>
       <div className="more-cards">
-        <Titlecards title={"BlockBuster Movies!"}/>
-        <Titlecards title={"Nah tf is this??"}/>
-        <Titlecards title={"Where's BarbenHaimer"}/>
-        <Titlecards title={"Huh???"}/>
+        <Titlecards title={"BlockBuster Movies!"} category={"popular"}/>
+        <Titlecards title={"Nah tf is this??"} category="top_rated"/>
+        <Titlecards title={"Where's BarbenHaimer"} category={"upcoming"}/>
+        <Titlecards title={"Huh???"} category={"now_playing"}/>
       </div>
       <Footer/>
     </div>
