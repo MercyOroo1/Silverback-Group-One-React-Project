@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "The Matrix",
-        "poster_url": "https://example.com/the-matrix.jpg",
+        "poster_url": "assets/the-matrix.jpg",
         "genre": "Science Fiction",
         "rating": 8.7,
         "price": 9.99,
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "title": "The Shawshank Redemption",
-        "poster_url": "https://example.com/shawshank.jpg",
+        "poster_url": "assets/shawshank.jpg",
         "genre": "Drama",
         "rating": 9.3,
         "price": 12.99,
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "title": "Inception",
-        "poster_url": "https://example.com/inception.jpg",
+        "poster_url": "assets/inception.jpg",
         "genre": "Thriller",
         "rating": 8.8,
         "price": 10.99,
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "title": "The Dark Knight",
-        "poster_url": "https://example.com/the-dark-knight.jpg",
+        "poster_url": "assets/the_dark_knight_key_art.jpg",
         "genre": "Action",
         "rating": 9.0,
         "price": 11.99,
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "title": "Forrest Gump",
-        "poster_url": "https://example.com/forrest-gump.jpg",
+        "poster_url": "assets/forest.jpg",
         "genre": "Drama",
         "rating": 8.8,
         "price": 9.99,
@@ -48,7 +48,7 @@
       {
         "id": 6,
         "title": "Fight Club",
-        "poster_url": "https://example.com/fight-club.jpg",
+        "poster_url": "assets/fightclub.jpg",
         "genre": "Drama",
         "rating": 8.8,
         "price": 10.99,
@@ -57,7 +57,7 @@
       {
         "id": 7,
         "title": "Pulp Fiction",
-        "poster_url": "https://example.com/pulp-fiction.jpg",
+        "poster_url": "assets/pulp.jpg",
         "genre": "Crime",
         "rating": 8.9,
         "price": 11.99,
@@ -66,7 +66,7 @@
       {
         "id": 8,
         "title": "The Godfather",
-        "poster_url": "https://example.com/the-godfather.jpg",
+        "poster_url": "assets/godfather.jpg",
         "genre": "Crime",
         "rating": 9.2,
         "price": 12.99,
@@ -75,7 +75,7 @@
       {
         "id": 9,
         "title": "Gladiator",
-        "poster_url": "https://example.com/gladiator.jpg",
+        "poster_url": "assets/gladiator.jpg",
         "genre": "Action",
         "rating": 8.5,
         "price": 10.99,
@@ -84,7 +84,7 @@
       {
         "id": 10,
         "title": "The Lord of the Rings: The Fellowship of the Ring",
-        "poster_url": "https://example.com/lotr-fellowship.jpg",
+        "poster_url": "assets/fellowship-of-the-ring.jpg",
         "genre": "Fantasy",
         "rating": 8.8,
         "price": 12.99,
@@ -93,7 +93,7 @@
         {
             "id": 11,
             "title": "Titanic",
-            "poster_url": "https://example.com/titanic.jpg",
+            "poster_url": "assets/titanic.jpg",
             "genre": "Romance",
             "rating": 7.8,
             "price": 11.99,
@@ -102,7 +102,7 @@
           {
             "id": 12,
             "title": "The Notebook",
-            "poster_url": "https://example.com/the-notebook.jpg",
+            "poster_url": "assets/notebook.jpg",
             "genre": "Romance",
             "rating": 7.8,
             "price": 9.99,
@@ -111,7 +111,7 @@
           {
             "id": 13,
             "title": "The Conjuring",
-            "poster_url": "https://example.com/the-conjuring.jpg",
+            "poster_url": "assets/conjuring.jpg",
             "genre": "Horror",
             "rating": 7.5,
             "price": 10.99,
@@ -120,7 +120,7 @@
           {
             "id": 14,
             "title": "It",
-            "poster_url": "https://example.com/it.jpg",
+            "poster_url": "assets/it.jpg",
             "genre": "Horror",
             "rating": 7.3,
             "price": 11.99,
@@ -129,7 +129,7 @@
           {
             "id": 15,
             "title": "The Exorcist",
-            "poster_url": "https://example.com/the-exorcist.jpg",
+            "poster_url": "assets/exorcist.jpg",
             "genre": "Horror",
             "rating": 8.0,
             "price": 12.99,
