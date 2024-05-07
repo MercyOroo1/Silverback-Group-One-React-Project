@@ -1,0 +1,143 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "The Matrix",
+        "poster_url": "https://example.com/the-matrix.jpg",
+        "genre": "Science Fiction",
+        "rating": 8.7,
+        "price": 9.99,
+        "watch_time": 136
+      },
+      {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "poster_url": "https://example.com/shawshank.jpg",
+        "genre": "Drama",
+        "rating": 9.3,
+        "price": 12.99,
+        "watch_time": 142
+      },
+      {
+        "id": 3,
+        "title": "Inception",
+        "poster_url": "https://example.com/inception.jpg",
+        "genre": "Thriller",
+        "rating": 8.8,
+        "price": 10.99,
+        "watch_time": 148
+      },
+      {
+        "id": 4,
+        "title": "The Dark Knight",
+        "poster_url": "https://example.com/the-dark-knight.jpg",
+        "genre": "Action",
+        "rating": 9.0,
+        "price": 11.99,
+        "watch_time": 152
+      },
+      {
+        "id": 5,
+        "title": "Forrest Gump",
+        "poster_url": "https://example.com/forrest-gump.jpg",
+        "genre": "Drama",
+        "rating": 8.8,
+        "price": 9.99,
+        "watch_time": 142
+      },
+      {
+        "id": 6,
+        "title": "Fight Club",
+        "poster_url": "https://example.com/fight-club.jpg",
+        "genre": "Drama",
+        "rating": 8.8,
+        "price": 10.99,
+        "watch_time": 139
+      },
+      {
+        "id": 7,
+        "title": "Pulp Fiction",
+        "poster_url": "https://example.com/pulp-fiction.jpg",
+        "genre": "Crime",
+        "rating": 8.9,
+        "price": 11.99,
+        "watch_time": 154
+      },
+      {
+        "id": 8,
+        "title": "The Godfather",
+        "poster_url": "https://example.com/the-godfather.jpg",
+        "genre": "Crime",
+        "rating": 9.2,
+        "price": 12.99,
+        "watch_time": 175
+      },
+      {
+        "id": 9,
+        "title": "Gladiator",
+        "poster_url": "https://example.com/gladiator.jpg",
+        "genre": "Action",
+        "rating": 8.5,
+        "price": 10.99,
+        "watch_time": 155
+      },
+      {
+        "id": 10,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "poster_url": "https://example.com/lotr-fellowship.jpg",
+        "genre": "Fantasy",
+        "rating": 8.8,
+        "price": 12.99,
+        "watch_time": 178
+      },
+        {
+            "id": 11,
+            "title": "Titanic",
+            "poster_url": "https://example.com/titanic.jpg",
+            "genre": "Romance",
+            "rating": 7.8,
+            "price": 11.99,
+            "watch_time": 195
+          },
+          {
+            "id": 12,
+            "title": "The Notebook",
+            "poster_url": "https://example.com/the-notebook.jpg",
+            "genre": "Romance",
+            "rating": 7.8,
+            "price": 9.99,
+            "watch_time": 123
+          },
+          {
+            "id": 13,
+            "title": "The Conjuring",
+            "poster_url": "https://example.com/the-conjuring.jpg",
+            "genre": "Horror",
+            "rating": 7.5,
+            "price": 10.99,
+            "watch_time": 112
+          },
+          {
+            "id": 14,
+            "title": "It",
+            "poster_url": "https://example.com/it.jpg",
+            "genre": "Horror",
+            "rating": 7.3,
+            "price": 11.99,
+            "watch_time": 135
+          },
+          {
+            "id": 15,
+            "title": "The Exorcist",
+            "poster_url": "https://example.com/the-exorcist.jpg",
+            "genre": "Horror",
+            "rating": 8.0,
+            "price": 12.99,
+            "watch_time": 122
+          }
+        ]
+      }
+      
+    
+  
+  
