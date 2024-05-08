@@ -29,9 +29,10 @@ import Player from './pages/Player/Player'
     <div>
       <ToastContainer theme="dark"/>
       <Routes>
-        <Route path='' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path = '/player' element= {<Player/>}/>
+        <Route path="/player/:id" element={<Player />} />
+
       </Routes>
       
       </div>

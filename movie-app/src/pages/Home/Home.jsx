@@ -8,8 +8,9 @@ import info_icon from '../../assets/info_icon.png'
 import Titlecards from '../../components/titlecards/titlecards.jsx'
 import Footer from '../../components/footer/footer.jsx'
 
-const Home = () => {
 
+const Home = () => {
+  const id = 693134
   
   return (
     <div className="home">
@@ -23,6 +24,7 @@ const Home = () => {
             <button className='btn'><img src={play_icon} alt=''/>Play</button>
             <button className='btn dark-btn'><img src={info_icon} alt=''/>More Info</button>
           </div>
+          
           <Titlecards/>
         </div>
       </div>

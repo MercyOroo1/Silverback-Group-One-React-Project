@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './titlecards.css';
+import { Link } from 'react-router-dom';
 
 const Titlecards = ({ title, category }) => {
   const [apiData, setApiData] = useState([]);
@@ -33,10 +34,10 @@ const Titlecards = ({ title, category }) => {
       <h2>{title ? title : "Popular on Moringa Flix!"}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((movie, index) => (
-          <div className="card" key={index}>
+          <Link to = {`/player/${movie.id}`}className="card" key={index}>
             <img src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`} alt='' />
             <p>{movie.original_title}</p>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
