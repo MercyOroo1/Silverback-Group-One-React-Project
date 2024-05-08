@@ -6,6 +6,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Player from './pages/Player/Player'
 
 
  const App = () => {
@@ -30,6 +31,7 @@ import 'react-toastify/dist/ReactToastify.css';
       <Routes>
         <Route path='' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path = '/player' element= {<Player/>}/>
       </Routes>
       
       </div>
