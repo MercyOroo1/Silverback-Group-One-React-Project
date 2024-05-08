@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className="footer">
        <div className="footer-icons">
-        <img src={youtube_icon} alt=""/>
-        <img src={instagram_icon} alt=""/>
-        <img src={twitter_icon} alt=""/>
-        <img src={facebook_icon} alt=""/>
+      <a href = "https://www.youtube.com/@Netflix" target= "_blank"><img src={youtube_icon} alt=""/></a> 
+        <a href= "https://www.instagram.com/netflix?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'><img src={instagram_icon} alt=""/> </a>
+        <a href = 'https://twitter.com/netflix' target = '_blank'><img src={twitter_icon} alt=""/> </a>
+        <a href = 'https://www.facebook.com/netflixke' target = '_blank'><img src={facebook_icon} alt=""/> </a>
        </div>
        <ul>
         <li>Contact Us</li>
@@ -21,7 +21,7 @@ const Footer = () => {
         <li>Meet the Grahams</li>
         <li>Lol</li>
        </ul>
-       <p className="copyright-text">This Project is Licenced by Kaarshe, Mercy and Lenny!™ 2024</p>
+       <p className="copyright-text">This Project is Licensed by Kaarshe, Mercy, Cheryl and Lenny!™ 2024</p>
     </div>
   )
 }

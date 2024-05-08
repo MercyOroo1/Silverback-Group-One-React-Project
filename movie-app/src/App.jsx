@@ -7,6 +7,7 @@ import { auth } from './firebase'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Player from './pages/Player/Player'
+import Banner from './pages/Player/Banner'
 
 
  const App = () => {
@@ -29,9 +30,11 @@ import Player from './pages/Player/Player'
     <div>
       <ToastContainer theme="dark"/>
       <Routes>
-        <Route path='' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path = '/player' element= {<Player/>}/>
+        <Route path="/player/:id" element={<Player />} />
+        <Route path="/banner" element = {<Banner />} />
+
       </Routes>
       
       </div>
