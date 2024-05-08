@@ -7,10 +7,9 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import Titlecards from '../../components/titlecards/titlecards.jsx'
 import Footer from '../../components/footer/footer.jsx'
-
+import { Link } from 'react-router-dom'
 
 const Home = () => {
-  const id = 693134
   
   return (
     <div className="home">
@@ -21,8 +20,8 @@ const Home = () => {
           <img src={hero_title} alt='' className='caption-img'/>
           <p>Drake has a BBL lol😂</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt=''/>Play</button>
-            <button className='btn dark-btn'><img src={info_icon} alt=''/>More Info</button>
+            <Link to = {'/banner'}className='btn'><img src={play_icon} alt=''/>Play</Link>
+           
           </div>
           
           <Titlecards/>
