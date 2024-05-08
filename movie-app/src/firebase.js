@@ -51,6 +51,7 @@ const login = async(email, password) => {
 }
 
 const logout = async()=>{
+    toast.info("You just logged out, you must sign in again.")
     signOut(auth);
 }
 
