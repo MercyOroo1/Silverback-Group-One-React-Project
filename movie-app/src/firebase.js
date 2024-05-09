@@ -34,6 +34,7 @@ const signup = async (name, email, password)=>{
             email,
             
         });
+        toast.success("Welcome to MoringaFlix!")
     } catch (error) {
         console.log(error);
         toast.error(error.code.split('/')[1].split('-').join(" "));

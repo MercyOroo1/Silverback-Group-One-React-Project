@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/cards/MORINGA_FLIX-removebg-preview.png';
 import { login, signup } from '../../firebase';
 
 const Login = ({ setEmail }) => { // Destructure setEmail from props
