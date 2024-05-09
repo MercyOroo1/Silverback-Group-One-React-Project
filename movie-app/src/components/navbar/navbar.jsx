@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '/Users/lennywachira/Documents/GitHub/SilverBackReactGroupProj/movie-app/src/assets/cards/MORINGA_FLIX-removebg-preview.png'
 import search_icon from '../../assets/search_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 
 
 const Navbar = ({email}) => {
-  const [names, setNames] = useState("bro👊");
+  const [names, setNames] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
