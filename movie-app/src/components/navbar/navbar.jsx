@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './navbar.css'
-import logo from '/Users/lennywachira/Documents/GitHub/SilverBackReactGroupProj/movie-app/src/assets/cards/MORINGA_FLIX-removebg-preview.png'
+import logo from '../../assets/cards/MORINGA_FLIX-removebg-preview.png'
 import search_icon from '../../assets/search_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
@@ -9,8 +9,10 @@ import { db } from '../../firebase'
 import { DocumentReference, collection, doc, getDoc, query, where } from 'firebase/firestore'
 import { Link } from 'react-router-dom'
 
+
+
 const Navbar = ({email}) => {
-  const [names, setNames] = useState("");
+  const [names, setNames] = useState("bro👊");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,12 +38,12 @@ const Navbar = ({email}) => {
 return (
     <div className='navbar'>
       <div className="navbar-left">
-         <img src={logo} alt=""/>
+         <img style ={{height:"100px", width: "250px"}} src={logo} alt=""/>
          <ul>
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>
-          <li>New and Popular</li>
+          <li>New & Popular</li>
          </ul>
       </div>
       <div className="navbar-right">
