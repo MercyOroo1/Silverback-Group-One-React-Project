@@ -75,3 +75,11 @@
 .navbar-profile:hover .dropdown{
     display: block;
 }
+
+.icons {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.icons:hover {
+    transform: scale(1.5);
+}
