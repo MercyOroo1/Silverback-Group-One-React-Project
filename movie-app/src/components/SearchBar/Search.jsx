@@ -3,6 +3,7 @@ import search_icon from '../../assets/search_icon.svg'
 import Results from './Results'
 import { Link } from 'react-router-dom'
  import './Search.css'
+ import logo from '/Users/lennywachira/Documents/GitHub/SilverBackReactGroupProj/movie-app/src/assets/cards/MORINGA_FLIX-removebg-preview.png'
 
 function Search() {
     const [searchResults, setSearchResults] =useState ([])
@@ -34,14 +35,15 @@ useEffect (()=> {
 console.log(searchResults)
   return (
     <div>
+        
         <form onSubmit = {handleSubmit} className='search-bar'>
-            <label><img src = {search_icon} alt='...'/></label>
+            <label><img src = {search_icon} alt='...' className="img-icon"/></label>
             <input type = "text" placeholder='Search by title'id='inputText' onChange = {(e)=> setQuery(e.target.value)}></input>
-            <button>Go</button>
+            <button className="submit-button">Go</button>
         </form>
 
 {/* search results */}
-<div>
+<div className="search-results">
 {searchResults.map((movie) => (
     <Results movies= {movie} key= {movie.id}/>
         ))}
