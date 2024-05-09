@@ -2,7 +2,7 @@
 #### Date: 09/05/2024
 ## Testing
 
-You can view the application in your local browser and try to login in,purchase movies and search any movie of your choice.
+You can view the application in your local browser and try to log in, purchase movies and search for any movies of your choice.
 
 ## Authors
 
@@ -12,7 +12,7 @@ MERCY OROO, MURIGI WIJENJE, LENNY WANDETO, CHERYL MUTANU, KARSHE ALI
 
 This project is a React application built using HTML, CSS and React. Users can search for any movie of their choice in the application.
 
-## Live Site
+## Repository Link
 
 https://github.com/MercyOroo1/Silverback-Group-One-React-Project/
 
