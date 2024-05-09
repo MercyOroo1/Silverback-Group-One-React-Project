@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './navbar.css'
-import logo from '/Users/lennywachira/Documents/GitHub/SilverBackReactGroupProj/movie-app/src/assets/cards/MORINGA_FLIX-removebg-preview.png'
+import logo from '../../assets/cards/MORINGA_FLIX-removebg-preview.png'
 import search_icon from '../../assets/search_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
@@ -11,14 +11,8 @@ import { Link } from 'react-router-dom'
 
 
 
-// const emailval = document.getElementById("email-input").value
-// const colRef = collection(db, "user")
-// const q = query(colRef, where("email", "==", `${emailval}`))
-// const names = getDoc(q).then(doc => doc.data().name).catch(err => console.log(err))
-
-
 const Navbar = ({email}) => {
-  const [names, setNames] = useState("");
+  const [names, setNames] = useState("bro👊");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -44,7 +38,7 @@ const Navbar = ({email}) => {
 return (
     <div className='navbar'>
       <div className="navbar-left">
-         <img src={logo} alt=""/>
+         <img style ={{height:"100px", width: "250px"}} src={logo} alt=""/>
          <ul>
           <li>Home</li>
           <li>TV Shows</li>
