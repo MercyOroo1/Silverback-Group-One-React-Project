@@ -18,9 +18,9 @@ https://github.com/MercyOroo1/Silverback-Group-One-React-Project/
 
 ## Technology Used Example:
 
-1.HTML
-1.CSS
-1.React
+1. HTML
+1. CSS
+1. React
 
 ## Contact Information
 
