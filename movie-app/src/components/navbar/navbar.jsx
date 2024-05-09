@@ -9,14 +9,6 @@ import { db } from '../../firebase'
 import { DocumentReference, collection, doc, getDoc, query, where } from 'firebase/firestore'
 import { Link } from 'react-router-dom'
 
-
-
-// const emailval = document.getElementById("email-input").value
-// const colRef = collection(db, "user")
-// const q = query(colRef, where("email", "==", `${emailval}`))
-// const names = getDoc(q).then(doc => doc.data().name).catch(err => console.log(err))
-
-
 const Navbar = ({email}) => {
   const [names, setNames] = useState("");
 
@@ -49,7 +41,7 @@ return (
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>
-          <li>New & Popular</li>
+          <li>New and Popular</li>
          </ul>
       </div>
       <div className="navbar-right">
