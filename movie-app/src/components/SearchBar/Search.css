@@ -1,7 +1,12 @@
 .search-bar {
-    position: relative;
+    position: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    /* border: solid 3px; */
+    padding: 1em;
+    max-width: 75%;
+    justify-content: flex-end;
 }
 
 .search-bar input[type="text"] {
@@ -25,9 +30,46 @@
 /* Hover and Focus Effects */
 .search-bar input[type="text"]:hover,
 .search-bar input[type="text"]:focus {
-    border-color: #007bff;
+    border-color: orange;
 }
 
 .search-bar button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: blue;
 }
+
+#inputText{
+   display: flex;
+   flex-direction: row;
+   float: right !important;
+   width: 600px;
+   background: rgba(0,0,0,0.75);
+   color: white;
+}
+
+.search-results{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 4px;
+}
+
+.submit-button{
+    /* width: 100%; */
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.img-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    
+}
+
