@@ -16,6 +16,9 @@ This project is a React application built using HTML, CSS and React. Users can s
 
 https://github.com/MercyOroo1/Silverback-Group-One-React-Project/
 
+## Live link 
+https://moringaflix.netlify.app/
+
 ## Technology Used Example:
 
 1. HTML
